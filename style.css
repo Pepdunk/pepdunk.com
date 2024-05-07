@@ -1,0 +1,994 @@
+/* INDEX. HTML STARTS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;  
+    text-transform: capitalize;
+  }
+  
+  /* 
+  .menu {
+      
+  }
+  
+  */
+  
+  /* navigation starts */
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    padding: 1vw 7vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+  }
+  
+  nav .logo{   
+    cursor: pointer;
+  }
+  
+  nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;   
+  }
+  
+  nav ul li{
+    list-style: none;
+    margin-left: 30px;
+  }
+  
+  nav .navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.6s ease;
+  }
+  
+  nav .navigation ul li a.active,
+  nav .navigation ul li a:hover{
+    color: #fdc93b;
+  }
+  
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+  
+  nav .exit a{
+    color: black;
+  }
+  
+  nav .exit a:hover{
+    color: #fdc93b;
+  }
+  
+  /* navigation ends */
+  
+  /* Basic styling for the menu bar *
+  ul.menu-bar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      transition: top 0.3s ease-in-out;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    li.menu-item {
+      float: left;
+    }
+    
+    li.menu-item a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li.menu-item a:hover {
+      background-color: #555;
+    }
+  
+    li.menu-item1 {
+      float: right;
+    }
+    
+    li.menu-item1 a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li.menu-item1 a:hover {
+      background-color: #555;
+    }
+  
+    .hamburger{
+      display: none;
+      cursor: pointer;
+  }
+  
+  .bar{
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: black;
+  }
+  
+    /* menu bar ends */
+  
+  .menu-bdk{
+      text-align: center;
+      padding: 10px ;
+      background-color: white;
+  }
+  
+  .logo{
+      width: 30%;
+      height: 5%;
+  }
+  
+  /* sub-menu section */
+  
+  .sub{
+      background-color: white;
+      padding:15px;
+  }
+  
+  .sub-h1{
+      padding: 12px;
+      font-style: italic;
+      text-align: center;
+      color: rgb(43, 36, 36);
+  }
+  
+  .sub-p{
+      padding: 30px;
+      font-family: cursive;
+      color: rgb(43, 36, 36);
+  }
+  
+  .sub-img{
+      width: 100%;
+  }
+  
+  .sub-h3{
+      padding: 20px;
+      font-family: cursive;
+      color: rgb(66, 65, 65);
+  }
+  
+  .menut {
+      float: left;
+      width: 20%;
+    }
+    .menuitem {
+      padding: 8px;
+      margin-top: 7px;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .main {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+      overflow: hidden;
+    }
+    .right {
+      background-color: lightblue;
+      float: left;
+      width: 20%;
+      padding: 10px 15px;
+      margin-top: 2px;
+    }
+  
+  
+    /* multi color zoon starts*/
+  
+  .myDIV{
+    width: 100%;
+    height: 20px;
+    background: red;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove{
+    50% {background-color: blue;}
+  }
+  
+  /* multi color zoon ends */
+  
+  
+    /* footer starts */
+  
+  footer{
+    padding: 8vw;
+    background-color: #1c2639;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  footer .footer-col {
+    padding-bottom: 40px;
+  }
+  
+  footer h3 {
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  
+  footer li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 15px;
+  }
+  
+  
+  footer li a{
+    color: #7b838a;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  footer li a:hover {
+    color: rgb(241, 240, 245);
+  }
+  
+  footer p {
+    color: #7b838a;
+  }
+  
+  footer .subscribe{
+    margin-top: 20px;
+  }
+  
+  footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: #fff;
+  }
+  
+  footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: #fff;
+    font-weight: 600;     
+  }
+  
+  footer .subscribe a.yellow{
+    color: #fff;
+    background: #fdc938;
+    transition: 0.3s ease;
+    padding: 7px;
+    border-radius: 4px;
+  }
+  
+  footer .subscribe a.yellow:hover {
+    color: rgb(21, 21, 100);
+    background: #fff;
+  }
+  
+  footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  footer .copyright p{
+    color: #fff;
+  }
+  
+  .footer1 {
+      background-color:#f1f1f1;
+      text-align:center;
+      padding:10px;
+      margin-top:7px;
+      font-size:12px;
+      
+    }
+  
+  
+    /* media query *
+    
+    @media only screen and (max-width:950px) {
+      /* For tablets: *
+      .main {
+        width: 80%;
+        padding: 0;
+      }
+      .right {
+        width: 100%;
+      }
+  
+      .logo {
+        width: 50%;
+      }
+  
+    }
+  
+    */
+  
+    @media (max-width: 769px) {
+  
+      .hamburger{
+          display: block;
+      }
+  
+      .hamburger.active .bar:nth-child(2){
+          opacity: 0;
+      }
+  
+      .hamburger.active .bar:nth-child(1){
+          transform: translateY(8px) rotate(45deg);
+      }
+  
+      .hamburger.active .bar:nth-child(3){
+          transform: translateY(-8px) rotate(-45deg);
+      }
+  
+      .nav-menu{
+          position: fixed;
+          left: -100%;
+          top: 30px;
+          gap: 0;
+          flex-direction: column;
+          background-color: #fff;
+          width: 100%;
+          text-align: center;
+          transition: 0.3s;
+      }
+  
+      .nav-item{
+          margin: 16px 0;
+      }
+  
+      .nav-menu.active{
+          left: 0;
+      }
+  
+      .logo {
+        margin-top: 50px;
+        padding: -10%;
+      }
+    
+      .videosize {
+        width: 500px;
+      }
+  
+  
+  
+  }
+  
+  @media (max-width: 469px) {
+  
+      .hamburger{
+          display: block;
+      }
+  
+      .hamburger.active .bar:nth-child(2){
+          opacity: 0;
+      }
+  
+      .hamburger.active .bar:nth-child(1){
+          transform: translateY(8px) rotate(45deg);
+      }
+  
+      .hamburger.active .bar:nth-child(3){
+          transform: translateY(-8px) rotate(-45deg);
+      }
+  
+      .nav-menu{
+          position: fixed;
+          left: -100%;
+          top: 30px;
+          gap: 0;
+          flex-direction: column;
+          background-color: #fff;
+          width: 100%;
+          text-align: center;
+          transition: 0.3s;
+      }
+  
+      .nav-item{
+          margin: 16px 0;
+      }
+  
+      .nav-menu.active{
+          left: 0;
+      }
+  
+      .logo {
+        margin-top: 50px;
+        padding: -10%;
+      }
+    
+      .videosize {
+        width: 350px;
+      }
+  
+  }
+  
+  
+  
+  @media (max-width: 350px) {
+  
+    .hamburger{
+        display: block;
+    }
+  
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 30px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+  
+    .nav-item{
+        margin: 16px 0;
+    }
+  
+    .nav-menu.active{
+        left: 0;
+    }
+  
+    .logo {
+      margin-top: 50px;
+      padding: -20%;
+    }
+  
+    .videosize {
+      width: 270px;
+    }
+  
+  }
+  
+       /*
+  
+    @media only screen and (max-width:500px) {
+      /* For mobile phones: *
+  
+      .menu, .main, .right {
+        width: 100%;
+      }
+      .logo {
+        width: 60%;
+      }
+    }
+  
+    */
+  
+    /*
+  
+    @media only screen and (max-width:300px) {
+      /* For mobile phones: *
+      .menu, .main, .right {
+        width: 100%;
+      }
+      .logo {
+        width: 60%;
+      }
+    }
+  
+    */
+  
+    /* INDEX. HTML ENDS*/
+  
+  
+    /* OURSTORY STARTS */
+  
+    .founderimg {
+      align-items: center;
+      padding: 50px;
+      padding-left: 50px;
+    }
+    /* OURSTORY ENDS */
+  
+    /* contact start */
+  .contact {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #1c2639;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3a4353;
+  }
+  
+  
+  /* contact ends */
+  
+  /* login starts */
+  
+  .nav-login{
+    font-style: oblique;
+    color: #fdc93b;
+  }
+  
+  .login-form{
+    width: 700px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #18160e;
+  }
+  
+  .login-form h1{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  
+  
+  /*
+  .login-form h2{
+    padding: 20px;
+  }
+  
+  */
+  
+  .login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+  }
+  
+  .login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  .login-form .button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 8px;
+    border: 0;
+  }
+  
+  .login-form .button:hover {
+    background: rgb(16, 82, 123);
+  }
+  
+  .don {
+    padding-left: 180px;
+  }
+  
+  
+  .login-form .forgot{
+    text-decoration: none;
+    color: #1b1717;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 15px;
+    padding-left: 45%;
+  }
+  
+  .login-form a:hover{
+    color:  rgb(16, 82, 123);
+  }
+  
+  
+  .login-form .reg{
+    text-decoration: none;
+    color: #1b1717;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.3s ease;
+    cursor: pointer;
+    padding-left: 180px;
+    padding-bottom: 30px;
+  }
+  
+  .login-form a:hover{
+    color:  rgb(16, 82, 123);
+  }
+  
+  
+  
+  .left-image{
+    width: 350px;
+    height: 400px;
+    padding: 12px;
+    border-radius: 20px;
+  }
+  
+  .right-image{
+    padding-left: 150px;
+  }
+  
+  .binance{
+    padding-top: 230px;
+    padding-left: 500px;
+  }
+  
+  /* login ends*/
+  
+  /* register starts*/
+  
+  .main{
+    width: 75%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #18160e;
+    padding-bottom: 40px;
+  }
+  
+  .mainh{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 30px 0;
+    padding-top: 70%;
+    padding-right: 120px;
+  }
+  
+  .namereg{
+    text-align: left;
+  }
+  
+  
+  .lastname{
+    left: 200px;
+  }
+  
+  .Age{
+    text-align: left;
+  }
+  
+  .age{
+    position: relative;
+    left: 80px;
+    top: -59px;
+    border-radius: 6px;
+    line-height: 30px;
+    padding: 0 22px;
+    font-size: 16px;
+  }
+  
+  .Gender{
+    text-align: left;
+  }
+  
+  .gender{
+    position: relative;
+    left: 129px;
+    top: -58px;
+    border-radius: 6px;
+    height: 30px;
+    padding: 0 22px;
+    font-size: 16px;
+    background-color: #efefef;
+  }
+  
+  .E-mail{
+    text-align: left;
+  }
+  
+  .Phone{
+    text-align: left;
+  }
+  
+  .phone{
+    height: 32px;
+    border-radius: 6px;
+    height: 30px;
+    padding: 0 22px;
+    font-size: 16px;
+  }
+  
+  .number{
+    position: relative;
+    top: -30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    height: 40px;
+    padding: 0 96px;
+    font-size: 16px;
+  }
+  
+  .password{
+    text-align: left;
+  }
+  
+  .pass1{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    height: 40px;
+    padding:0 96px;
+    font-size: 16px;
+  }
+  
+  .pass2{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    height: 40px;
+    padding: 0 96px;
+    font-size: 16px;
+  }
+  
+  .don1 {
+    padding-right: 120px;
+  }
+  
+  
+  .login-form .forgot{
+    text-decoration: none;
+    color: #1b1717;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 15px;
+    padding-left: 45%;
+  }
+  
+  .login-form a:hover{
+    color:  rgb(16, 82, 123);
+  }
+  
+  
+  .reg1{
+    text-decoration: none;
+    color: #1b1717;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .main a:hover{
+    color:  rgb(16, 82, 123);
+    text-decoration: underline;
+  }
+  
+  
+  /* register ends */
+  
+  /* forgot starts */
+  
+  .Rmain{
+    width: 75%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #18160e;
+    padding-bottom: 40px;
+  }
+  
+  .Rmainh{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 30px 0;
+    padding-top: 15%;
+    padding-right: 10px;
+  }
+  
+  .Rmainp{
+    font-size: 20px;
+    margin: 10px 195px -15px;
+  }
+  
+  .nameforgot{
+    text-align: left;
+  }
+  
+  .Ageforgot{
+    text-align: left;
+  }
+  
+  .Rage{
+    position: relative;
+    left: 50px;
+    top: -29px;
+    border-radius: 6px;
+    line-height: 30px;
+    padding: 0 22px;
+    font-size: 16px;
+  }
+  
+  .Phoneforgot{
+    text-align: left;
+  }
+  
+  
+  .Rnumber{
+    position: relative;
+    top: -30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    height: 40px;
+    padding: 0 96px;
+    font-size: 16px;
+  }
+  
+  
+  /* forgot ends */
+  
+  /* new password starts */
+  
+  .newmain{
+    width: 75%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #18160e;
+    padding-bottom: 40px;
+  }
+  
+  .newmainh{
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 1px 0;
+    padding-right: 10px;
+  }
+  
+  .newpass1{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    height: 40px;
+    padding:0 96px;
+    font-size: 16px;
+  }
+  
+  .newpass2{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    height: 40px;
+    padding: 0 96px;
+    font-size: 16px;
+  }
+  /* new password ends */
+  
+  /* product starts */
+  
+  table {
+    border-spacing: 15px;
+    width: 100%;
+    padding: 15px 15px 15px;
+  }
+  
+  table, th, td {
+    border: 1.5px solid black;
+    padding: 15px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  h2{
+  text-align : center;
+  padding: 30px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover{
+    background-color: #e0e0e0;
+  }
+  s
+  .productp{
+    padding: 30px;
+  }
+  
+  /* product ends */
